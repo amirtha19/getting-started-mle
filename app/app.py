@@ -24,6 +24,10 @@ SessionLocal = sessionmaker(bind=engine)
 
 Base = declarative_base()
 
+# app/app.py
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to the Iris ML API"}
 
 class PredictionLog(Base):
     __tablename__ = "predictions"
