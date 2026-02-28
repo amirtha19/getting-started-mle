@@ -14,7 +14,7 @@ psycopg2-binary==2.9.9
 pydantic==2.12.5
 pydantic_core==2.41.5
 scikit-learn==1.7.0
-scipy==1.17.1
+scipy==1.15.3
 SQLAlchemy==2.0.25
 starlette==0.52.1
 threadpoolctl==3.6.0
