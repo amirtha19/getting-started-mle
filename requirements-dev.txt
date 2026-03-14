@@ -1,0 +1,5 @@
+pytest
+httpx
+pytest-mock
+pytest-cov
+flake8
